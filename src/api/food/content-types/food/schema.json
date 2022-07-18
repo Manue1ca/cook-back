@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "foods",
+  "info": {
+    "singularName": "food",
+    "pluralName": "foods",
+    "displayName": "food",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "foodName": {
+      "type": "string"
+    },
+    "shoow": {
+      "type": "boolean"
+    },
+    "imgFood": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "datePublication": {
+      "type": "datetime"
+    },
+    "foodDescription": {
+      "type": "richtext"
+    },
+    "imgsFood": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ingridietns": {
+      "type": "richtext"
+    },
+    "typeFood": {
+      "type": "string"
+    }
+  }
+}
